@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.itberries-header {
+    background-image: url('../img/Group 18.png');
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    padding: 50px 50px;
+    margin: 0;
+}
+
+.header-text p {
+    color: white;
+    line-height: 138.7%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.header-text h1 {
+    letter-spacing: 18.54%;
+    line-height: auto;
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+}
+
+.read-more-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.read-more-container .line {
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.read-more-container p {
+    margin: 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 1.2em;
+}
+
+.explore-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.explore-container .line {
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.explore-container p {
+    margin: 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    font-size: 1.2em;
+}
+
+.explore-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.explore-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#About_Me {
+    background: radial-gradient(circle, #B8C4C2, #e0e0e0);
+    padding: 20px;
+    color: black;
+    margin: 0;
+    border-top: 1px solid transparent;
+}
+
+.about-me-header {
+    text-align: center;
+    margin: 0;
+}
+
+.about-header {
+    display: inline-block;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 0;
+    
+}
